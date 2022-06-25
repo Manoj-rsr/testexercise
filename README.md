@@ -15,6 +15,13 @@ TelevisionPage.java,
 ResultPage.java,
 ProductDetailsPage.java
 
+## Helper Methods:
+
+created GenericWrappers.java which will contains generic selenium wrappers for all pages.
+
+i.e click , scroll, mouseover action 
+
+All pages extends these wrapper class to use respective functions
 
 ## Test Layer:
 
