@@ -48,3 +48,9 @@ Second way via,Right Click on Project root folder‡Ran as  Maven test
 
 Able to ran successfully in chrome, all scenarios got passed
 
+## Github Config
+
+created repo in Github
+initilazed git in project path
+added remote origin to local repo
+Imported local project to my github created repo 
