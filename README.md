@@ -1,28 +1,39 @@
 # Assignment
 
-[Click here to read the assignment](./docs/assignment.md)
 
 ## vanilla
 
-This is a base starter kit framework that you can use to build your tests for the above assignment.
-However, if you are more comfortable with your own tool kit, feel free to use that as well!
+Analyzed the Singleton pattern used in DriverFactory and URLFactory
+I have used the same base starter kit framework to build this exercise tests. 
+ 
 
-## External dependencies
+Achieved page layer management as per assignment instruction
 
-For this project to run, you would need to install below 3 dependencies on your machine:
+HomePage.java
+TelevisionPage.java
+ResultPage.java
+ProductDetailsPage.java
 
-- **[Java 11](https://openjdk.java.net/projects/jdk/11/)** (as the core programming language)
-- **[Maven 3.8.5](https://maven.apache.org/download.cgi)** (for dependency management)
-- **[Google Chrome latest version](https://www.google.com/chrome/?brand=CHBD&gclid=Cj0KCQjwr-SSBhC9ARIsANhzu15P0PA-n9Zp4NpxKaOHVGtBD1TZQH0HlQQE6hUfsOFAU1nf-Rzdlf4aAoTJEALw_wcB&gclsrc=aw.ds)** (browser to run your tests)
 
-> If your JAVA_HOME is set to anything other than JDK 11, you would need to update the path. Else your project
-> will not run. Also, do remember to set the correct JDK settings in your IDE.
+Test Layer:
 
-## Getting Started
+TestAmazon.java covers all test which mentioned as scenario in assignment
+ 
+I have used same org.junit.jupiter.api for assertion
+Besides that added @TestMethodOrder, @TestInstance, @BeforeAll,@AfterAll,@Order to ran test in single class file
 
-For easiest way to getting started, extract this project and open it from IntelliJ.
-> Then Do a dry run on test in : test -> java -> TestSandbox class and see if your setup is correct.  
+Logger:
+Used same org.slf4j.Logger
+Under src/main/resources, created log4j2.xml for configuration of log in console for all Status
 
-Tip: Do remember to update this readme file for anything else that you think needs updating here!
+## To Execute
+Added <junit-jupiter-engine> in pom.xml to make test execution ran in order given by user
+   1.Right click on TestAmazon.java ‡ Ran as Junit Test
+
+Second way via,Right Click on Project root folder‡Ran as  Maven test
+
 
 ## Success
+
+Able to ran successfully in chrome, all scenarios got passed
+
