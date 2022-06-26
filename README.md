@@ -35,6 +35,9 @@ Used same org.slf4j.Logger
 
 Under src/main/resources, created log4j2.xml for configuration of log in console for all Status
 
+Used Extent report in test
+Report will be stored in project path inside reports folder with fileName testresult.html
+
 ## To Execute
 Added <junit-jupiter-engine> in pom.xml to make test execution ran in order given by user
 

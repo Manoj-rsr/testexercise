@@ -1,5 +1,6 @@
 package amazon.pages;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -54,19 +55,23 @@ public class ProductDetailsPage extends GenericWrappers {
 
 	}
 
-	public void getDetailsonItem() {
+	public ArrayList<String> getDetailsonItem() {
+		ArrayList<String> allItems= new ArrayList<>();
 		List<WebElement> showItem = driver.findElements(displayItem);
 		List<WebElement> nondisplayItem = driver.findElements(moreItem);
 
 		for (WebElement product : showItem) {
 
 			log.info("Displayed List : -->" + product.getText());
+			allItems.add(product.getText());
 		}
 		System.out.println("<-----------> Showing Hidden items<----------------->");
 
 		for (WebElement product1 : nondisplayItem) {
 
 			log.info("NonDisplayed List : -->" + product1.getText());
+			allItems.add(product1.getText());
 		}
+		return allItems;
 	}
 }
