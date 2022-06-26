@@ -42,9 +42,9 @@ Report will be stored in project path inside reports folder with fileName testre
 Added <junit-jupiter-engine> in pom.xml to make test execution ran in order given by user
 
 
-   1.Right click on TestAmazon.java ‡ Ran as Junit Test
+   1.Right click on TestAmazon.java √† Ran as Junit Test
 
-Second way via,Right Click on Project root folder‡Ran as  Maven test
+Second way via,Right Click on Project root folder√†Ran as  Maven test
 
 
 ## Success
@@ -61,8 +61,13 @@ Imported local project to my github created repo
 ## commit history:
 
 1. Moved all files to git hub(initial commit) once all test passed in My local
+    
 2. Documented in ReadME.md for implementation of page and test layer
+    
 3.Logger file implementation
+    
 4.Helper Methods
+    
 5.Github Configuration
-5.Extent reports (in Test layer and console info for output)
+    
+6.Extent reports (in Test layer and console info for output)
