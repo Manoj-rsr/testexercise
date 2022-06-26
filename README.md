@@ -56,4 +56,13 @@ Able to ran successfully in chrome, all scenarios got passed
 created repo in Github
 initilazed git in project path
 added remote origin to local repo
-Imported local project to my github created repo 
+Imported local project to my github created repo
+
+## commit history:
+
+1. Moved all files to git hub(initial commit) once all test passed in My local
+2. Documented in ReadME.md for implementation of page and test layer
+3.Logger file implementation
+4.Helper Methods
+5.Github Configuration
+5.Extent reports (in Test layer and console info for output)
